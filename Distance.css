@@ -1,0 +1,84 @@
+.Distance_main {
+
+    background-color: antiquewhite;
+    width: 400px;
+    height: 290px;
+    padding-top: 2px
+}
+
+.distance_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+background:
+    radial-gradient(circle at top left, rgba(255,255,255,0.08), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(0,0,0,0.2), transparent 40%),
+    linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+
+}
+
+.distance_text {
+    font-style: italic;
+    animation: text1 1s ease-in-out forwards;
+
+}
+
+@keyframes text1 {
+  0% {
+    transform: translateX(-100px); /* start from left */
+    opacity: 0.4;
+  }
+
+  50% {
+    transform: translateX(100); /* end at original position */
+    opacity: 1;
+  }
+}
+button{
+    width:200px;
+    height: 40px;
+    background: linear-gradient(135deg,
+            #203a43,
+            #2c5364);
+
+}
+.Btn-div
+{
+padding: 25px 10px 20px 10px;
+}
+select{
+    width: 120px;
+    height: 30px;
+
+}
+label{
+  font-weight: lighter;
+}
+.distance_second
+{
+  background-color:linen;
+
+      width: 364px;
+    height: 150px;
+    border-radius: 10px;
+
+  /* IMPORTANT */
+  opacity: 1;
+  filter: none;
+  mix-blend-mode: normal;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 5.15);
+
+
+}
